@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	token := "xoxb-360783986946-363437162342-KaVIO4xNd9E3yETpXu2XBp6U"
+	token := ""
 	api := slack.New(token)
 	rtm := api.NewRTM()
 	go rtm.ManageConnection()
